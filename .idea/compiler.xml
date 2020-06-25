@@ -6,17 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="getuserdeatils" />
         <module name="loginregistration" />
+        <module name="getuserdeatils" />
+        <module name="departmentstatistic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="departmentstatistic" target="11" />
       <module name="getuserdeatils" target="11" />
       <module name="loginregistration" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="departmentstatistic" options="-parameters" />
       <module name="getuserdeatils" options="-parameters" />
       <module name="loginregistration" options="-parameters" />
     </option>

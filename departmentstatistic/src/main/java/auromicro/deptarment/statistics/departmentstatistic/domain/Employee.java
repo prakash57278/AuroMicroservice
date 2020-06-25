@@ -1,4 +1,4 @@
-package auromicro.login.registration.loginregistration.domain;
+package auromicro.deptarment.statistics.departmentstatistic.domain;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -6,7 +6,6 @@ import lombok.ToString;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.annotation.processing.Generated;
 import java.util.List;
 
 @ToString

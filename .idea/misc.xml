@@ -7,6 +7,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/loginregistration/pom.xml" />
+        <option value="$PROJECT_DIR$/departmentstatistic/pom.xml" />
       </list>
     </option>
   </component>

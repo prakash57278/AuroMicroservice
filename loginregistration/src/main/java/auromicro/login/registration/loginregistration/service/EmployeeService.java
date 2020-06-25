@@ -6,6 +6,7 @@ import auromicro.login.registration.loginregistration.repositry.EmployeeRepositr
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -35,5 +36,9 @@ public class EmployeeService {
 
     public Optional<Employee> getEmployeeById(int empId) {
         return employeeRepositry.findById(empId);
+    }
+
+    public List<Employee> getEmployeeByDeptId(int empDeptId) {
+        return employeeRepositry.findByEmpDeptId(empDeptId);
     }
 }

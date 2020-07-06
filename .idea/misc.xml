@@ -7,11 +7,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/loginregistration/pom.xml" />
-        <option value="$PROJECT_DIR$/departmentstatistic/pom.xml" />
+        <option value="$PROJECT_DIR$/DiscoveryServer/pom.xml" />
+        <option value="$PROJECT_DIR$/Employee Management/pom.xml" />
+        <option value="$PROJECT_DIR$/Departement Statistics/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

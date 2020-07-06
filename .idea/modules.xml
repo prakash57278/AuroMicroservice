@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AuroMicroservice.iml" filepath="$PROJECT_DIR$/.idea/AuroMicroservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/departmentstatistic/departmentstatistic.iml" filepath="$PROJECT_DIR$/departmentstatistic/departmentstatistic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Departement Statistics/Departement Statistics.iml" filepath="$PROJECT_DIR$/Departement Statistics/Departement Statistics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiscoveryServer/DiscoveryServer.iml" filepath="$PROJECT_DIR$/DiscoveryServer/DiscoveryServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Employee Management/Employee Management.iml" filepath="$PROJECT_DIR$/Employee Management/Employee Management.iml" />
       <module fileurl="file://$PROJECT_DIR$/loginregistration/loginregistration.iml" filepath="$PROJECT_DIR$/loginregistration/loginregistration.iml" />
     </modules>
   </component>

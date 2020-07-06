@@ -6,19 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="DiscoveryServer" />
         <module name="loginregistration" />
         <module name="getuserdeatils" />
-        <module name="departmentstatistic" />
+        <module name="Employee Management" />
+        <module name="Departement Statistics" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="11" />
+      <module name="Departement Statistics" target="11" />
       <module name="departmentstatistic" target="11" />
+      <module name="DiscoveryServer" target="11" />
+      <module name="Employee Management" target="11" />
       <module name="getuserdeatils" target="11" />
       <module name="loginregistration" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Departement Statistics" options="-parameters" />
+      <module name="DiscoveryServer" options="-parameters" />
+      <module name="Employee Management" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="departmentstatistic" options="-parameters" />
       <module name="getuserdeatils" options="-parameters" />
       <module name="loginregistration" options="-parameters" />
